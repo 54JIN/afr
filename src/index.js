@@ -13,12 +13,12 @@ import Home from './Home';
 const router = createBrowserRouter([
   //Page Objects
   {
-    path: '/',
+    path: '/afr/',
     element: <App />,
     errorElement: <div> 404 Not Found </div>
   },
   {
-    path: '/home',
+    path: '/afr/home',
     element: <Home />
   }
 ]);
