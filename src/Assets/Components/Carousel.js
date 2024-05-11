@@ -3,8 +3,6 @@ import { useRef, useState } from "react";
 //CSS Imports
 import "./Carousel.css"
 
-
-
 const Carousel = ({ images }) => {
     const carousel = useRef();
     const [count, setCount] = useState(0);
@@ -39,8 +37,10 @@ const Carousel = ({ images }) => {
                 <div className="carousel" ref={carousel}>
                     {images.map((img, idx) => (
                         <div className="carousel-item" key={`${idx}-${img.title}`}>
-                            <img src={img.image} alt={img.title} />
-                            <div className="carousel-content">
+                            <div className="carousel-item-img">
+                                <img src={img.image} alt={img.title} />
+                            </div>
+                            <div className="carousel-item-title">
                                 <h1>{img.title}</h1>
                             </div>
                         </div>

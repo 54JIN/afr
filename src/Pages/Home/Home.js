@@ -11,6 +11,7 @@ import './Home.css';
 //Images
 import background_img from '../../Assets/Images/backgroundImage.jpg';
 import FoodList from '../../Assets/Data/FoodList';
+import DrinkList from '../../Assets/Data/DrinkList';
 
 class Home extends Component {
     render() {
@@ -26,6 +27,7 @@ class Home extends Component {
                     </div>
                 </div>
                 <Carousel images={FoodList}/>
+                <Carousel images={DrinkList}/>
             </div>
         )
     }

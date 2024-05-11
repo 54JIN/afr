@@ -24,24 +24,36 @@
 }
 
 .carousel-item {
-    display: flex;
-    position: relative;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw;
+    grid-template-rows: 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw 1.75vw;
     margin-right: 5vw;
     scroll-snap-align: start;
 }
 
-.carousel-item img {
-    height: 14vw;
-    width: 14vw;
-    object-fit: cover;
+.carousel-item-title {
+    grid-column: 1 / 8;
+    grid-row: 8 / -1;
+    background-color: rgba(200, 159, 12, 0.80);
 }
 
-.carousel-item h1 {
-    margin-top: 0px;
+.carousel-item-title h1 {
+    margin-top: 0.1vw;
     margin-bottom: 0px;
-    color: #CCF382;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item-img {
+    grid-column: 1 / 8;
+    grid-row: 1 / -1;
+}
+
+.carousel-item-img img {
+    height:100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .carousel-item button {
