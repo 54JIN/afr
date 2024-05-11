@@ -1,5 +1,5 @@
 //Imported Components
-import Home from './Home';
+import Home from './Pages/Home/Home';
 
 //CSS Imports
 import './App.css';

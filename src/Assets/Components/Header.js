@@ -6,8 +6,11 @@ import './Header.css'
 class Header extends Component {
     render() {
         return(
-            <div>
-                Hello
+            <div className="Header">
+                <button>HOME</button>
+                <button>ABOUT ME</button>
+                <button>CONTACT</button>
+                <button>REVIEWS</button>
             </div>
         )
     }

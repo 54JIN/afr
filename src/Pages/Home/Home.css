@@ -1,0 +1,35 @@
+.Home {
+    display: flex;
+}
+
+.Home-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-Title-img {
+    display: flex;
+    width: 100vw;
+}
+
+.Home-Title-img img {
+    width: 100vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.Home-Title-txt {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(203, 203, 203, 0.65);
+    width: 27vw;
+}
+
+.Home-Title-txt h1 {
+    margin-top: 0.6vw;
+    margin-bottom: 0.6vw;
+    color: white;
+    font-size: 2vw;
+}

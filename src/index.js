@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 //Imported Component Pages
 import App from './App';
-import Home from './Home';
+// import Home from './Home';
 
 const router = createBrowserRouter([
   //Page Objects
@@ -17,10 +17,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <div> 404 Not Found </div>
   },
-  {
-    path: '/afr/home',
-    element: <Home />
-  }
+  // {
+  //   path: '/afr/home',
+  //   element: <Home />
+  // }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
