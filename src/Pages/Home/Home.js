@@ -3,12 +3,14 @@ import React, {Component} from 'react';
 //Imported Components
 // import Header from '/Assets/Components/Header';
 import Header from '../../Assets/Components/Header';
+import Carousel from '../../Assets/Components/Carousel';
 
 //CSS Imports
 import './Home.css';
 
 //Images
 import background_img from '../../Assets/Images/backgroundImage.jpg';
+import FoodList from '../../Assets/Data/FoodList';
 
 class Home extends Component {
     render() {
@@ -23,6 +25,7 @@ class Home extends Component {
                         <h1>Anonymous Food Review</h1>
                     </div>
                 </div>
+                <Carousel images={FoodList}/>
             </div>
         )
     }
