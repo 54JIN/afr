@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/afr/static/css/main.fb4c278f.css",
-    "main.js": "/afr/static/js/main.da128f2b.js",
+    "main.css": "/afr/static/css/main.6a16f335.css",
+    "main.js": "/afr/static/js/main.918ca3c2.js",
     "static/js/453.ceda45c2.chunk.js": "/afr/static/js/453.ceda45c2.chunk.js",
     "static/media/cuzins.jpg": "/afr/static/media/cuzins.ce817da6b5e1758ab0e9.jpg",
     "static/media/happyLamb.jpg": "/afr/static/media/happyLamb.7dbb50a64b5e70da8442.jpg",
     "static/media/laCatrina.jpg": "/afr/static/media/laCatrina.ffbc63e3c6a7417badb1.jpg",
+    "static/media/miTea.jpg": "/afr/static/media/miTea.d624693fb7fe1da05924.jpg",
     "static/media/mariasBrunch.jpg": "/afr/static/media/mariasBrunch.f92a6f08dcb8ebb2a563.jpg",
     "static/media/backgroundImage.jpg": "/afr/static/media/backgroundImage.0364b5369889c4233850.jpg",
     "static/media/phoToday.jpg": "/afr/static/media/phoToday.c63ab2e3a59579f66e30.jpg",
     "static/media/ramenNagomi.jpg": "/afr/static/media/ramenNagomi.f60d116e81b3b118d436.jpg",
     "static/media/tofuHouse.jpg": "/afr/static/media/tofuHouse.5b5561550f5f3ec343a5.jpg",
     "static/media/sakana.jpg": "/afr/static/media/sakana.17cbd8387cd9cc01a8fc.jpg",
+    "static/media/cafeZIO.jpg": "/afr/static/media/cafeZIO.c15db4867bc212a35ba9.jpg",
+    "static/media/gongCha.jpg": "/afr/static/media/gongCha.cc6767cc929a0c5b7162.jpg",
+    "static/media/utepia.jpg": "/afr/static/media/utepia.61c52f8486d898bb7cfa.jpg",
     "index.html": "/afr/index.html",
-    "main.fb4c278f.css.map": "/afr/static/css/main.fb4c278f.css.map",
-    "main.da128f2b.js.map": "/afr/static/js/main.da128f2b.js.map",
+    "main.6a16f335.css.map": "/afr/static/css/main.6a16f335.css.map",
+    "main.918ca3c2.js.map": "/afr/static/js/main.918ca3c2.js.map",
     "453.ceda45c2.chunk.js.map": "/afr/static/js/453.ceda45c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb4c278f.css",
-    "static/js/main.da128f2b.js"
+    "static/css/main.6a16f335.css",
+    "static/js/main.918ca3c2.js"
   ]
 }
