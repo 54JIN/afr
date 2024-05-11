@@ -36,9 +36,21 @@
 
 .Featured-options {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     width: 100vw;
-    height: 40vw;
+    height: 50vw;
+}
+
+.Featured-options-title h1 {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.Featured-options-content {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Featured-main {

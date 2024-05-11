@@ -1,15 +1,27 @@
 .carousel-frame {
     display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+}
+
+.carousel-frame-title {
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.carousel-frame-title h1 {
+    /* text-align: center; */
+    font-size: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 0px;
 }
 
 .carousel-container {
     width: 100vw;
-    height: 25vw;
-    background-color: #FFFFFF;
+    height: 20vw;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 

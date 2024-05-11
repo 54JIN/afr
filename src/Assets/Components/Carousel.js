@@ -3,7 +3,9 @@ import { useRef, useState } from "react";
 //CSS Imports
 import "./Carousel.css"
 
-const Carousel = ({ images }) => {
+const Carousel = (props) => {
+    const images = props.images;
+    const title = props.title;
     const carousel = useRef();
     const [count, setCount] = useState(0);
 
@@ -31,6 +33,9 @@ const Carousel = ({ images }) => {
 
     return(
         <div className="carousel-frame">
+            <div className="carousel-frame-title">
+                <h1>{title}</h1>
+            </div>
             <div className="carousel-container">
                 <div className="carousel-btn left-btn" onClick={() => incrementCarousel(-1)}></div>
                 <div className="carousel-btn right-btn" onClick={() => incrementCarousel(1)}></div>
