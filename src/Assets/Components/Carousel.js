@@ -1,11 +1,14 @@
 import { useRef, useState } from "react";
 
+import { Link } from 'react-router-dom';
+
 //CSS Imports
 import "./Carousel.css"
 
 const Carousel = (props) => {
     const images = props.images;
     const title = props.title;
+    const type = props.type;
     const carousel = useRef();
     const [count, setCount] = useState(0);
 
@@ -41,14 +44,16 @@ const Carousel = (props) => {
                 <div className="carousel-btn right-btn" onClick={() => incrementCarousel(1)}></div>
                 <div className="carousel" ref={carousel}>
                     {images.map((img, idx) => (
-                        <div className="carousel-item" key={`${idx}-${img.title}`}>
-                            <div className="carousel-item-img">
-                                <img src={img.image} alt={img.title} />
+                        <Link to={`/afr/${type}Review/${idx}`}>
+                            <div className="carousel-item" key={`${idx}-${img.title}`}>
+                                <div className="carousel-item-img">
+                                    <img src={img.image} alt={img.title} />
+                                </div>
+                                <div className="carousel-item-title">
+                                    <h1>{img.title}</h1>
+                                </div>
                             </div>
-                            <div className="carousel-item-title">
-                                <h1>{img.title}</h1>
-                            </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </div>

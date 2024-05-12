@@ -8,7 +8,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 //Imported Component Pages
 import App from './App';
-// import Home from './Home';
+import AboutMe from './Pages/AboutMe/AboutMe';
+import FoodReview from './Pages/Review/FoodReview';
+import DrinkReview from './Pages/Review/DrinkReview';
 
 const router = createBrowserRouter([
   //Page Objects
@@ -17,10 +19,18 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <div> 404 Not Found </div>
   },
-  // {
-  //   path: '/afr/home',
-  //   element: <Home />
-  // }
+  {
+    path: '/afr/AboutMe',
+    element: <AboutMe />
+  },
+  {
+    path: '/afr/FoodReview/:foodId',
+    element: <FoodReview />
+  },
+  {
+    path: '/afr/DrinkReview/:foodId',
+    element: <DrinkReview />
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
