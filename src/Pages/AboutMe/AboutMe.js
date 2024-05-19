@@ -10,7 +10,7 @@ class AboutMe extends Component {
     render() {
         return (
             <div className="AboutMe">
-                <Header />
+                <Header active="1" />
             </div>
         )
     }

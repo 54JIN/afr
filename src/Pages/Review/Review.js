@@ -13,7 +13,7 @@ export default function Review(props) {
     const obj = props.obj;
     return (
         <div className="Review">
-            <Header />
+            <Header active="3" />
             <div className="Review-Featured">
                 <div className="Review-spotlight">
                     <img src={obj.image} alt={obj.title} />

@@ -19,7 +19,7 @@ class Home extends Component {
     render() {
         return(
             <div>
-                <Header />
+                <Header active="0"/>
                 <div className="Home-Title">
                     <div className="Home-Title-img">
                         <img src={background_img} alt="background image" />

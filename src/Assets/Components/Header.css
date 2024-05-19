@@ -4,12 +4,17 @@
     align-items: center;
     width: 100vw;
     height: 4vw;
+    border-bottom: 3px solid rgba(217, 217, 217, 0.5);
 }
 
+.activeLink {
+    color: #B0830F;
+}
 
 .Header button {
     background: none;
     border: none;
     font-size: 1.2vw;
+    font-weight: 200; /* Currently Only Works on FireFox */
     cursor: pointer;
 }

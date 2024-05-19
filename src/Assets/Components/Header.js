@@ -2,22 +2,27 @@ import React, {Component} from 'react';
 
 import { Link } from 'react-router-dom';
 
+//Imported Components
+import Home from '../../Pages/Home/Home';
 import AboutMe from '../../Pages/AboutMe/AboutMe';
+
 //CSS Imports
 import './Header.css'
 
 class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            
+        }
+    }
     render() {
         return(
             <div className="Header">
-                <Link key={AboutMe} to={'/afr'}><button>HOME</button></Link>
-                <Link key={AboutMe} to={'/afr/AboutMe'}><button>ABOUT ME</button></Link>
-                <Link key={AboutMe} to={'/afr/AboutMe'}><button>CONTACT</button></Link>
-                <Link key={AboutMe} to={'/afr/AboutMe'}><button>REVIEWS</button></Link>
-                {/* <button>HOME</button>
-                <button>ABOUT ME</button>
-                <button>CONTACT</button>
-                <button>REVIEWS</button> */}
+                <Link key={Home} to={'/afr'} ><button className={this.props.active === "0" ? "activeLink" : null}>HOME</button></Link>
+                <Link key={AboutMe} to={'/afr/AboutMe'} ><button className={this.props.active === "1" ? "activeLink" : null}>ABOUT ME</button></Link>
+                <Link key={AboutMe} to={'/afr/AboutMe'} ><button className={this.props.active === "2" ? "activeLink" : null}>CONTACT</button></Link>
+                <Link key={AboutMe} to={'/afr/AboutMe'} ><button className={this.props.active === "3" ? "activeLink" : null}>REVIEWS</button></Link>
             </div>
         )
     }
