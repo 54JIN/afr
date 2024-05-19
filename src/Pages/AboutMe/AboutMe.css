@@ -1,0 +1,28 @@
+.AboutMe-Content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+    width: 100vw;
+}
+
+.AboutMe-Content-img img {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.AboutMe-Content-description {
+    width: 25vw;
+    height: 25vw;
+}
+
+.AboutMe-Content-description-title p {
+    font-size: 1.43vw;
+    color: #B0830F;
+}
+
+.AboutMe-Content-description-details p {
+    font-size: 0.9vw;
+    font-weight: lighter;
+}
