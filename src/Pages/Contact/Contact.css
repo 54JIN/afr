@@ -1,0 +1,32 @@
+.Contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33vw;
+    height: 80vh;
+    margin-left: 15vw;
+}
+
+.Contact-content h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 5vw;
+    color: #B0830F;
+}
+
+.Contact-content p {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.Contact-content button {
+    width: 10vw;
+    height: 2.5vw;
+    font-size: 1.1vw;
+    background-color: #B0830F;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

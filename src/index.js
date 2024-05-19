@@ -9,6 +9,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 //Imported Component Pages
 import App from './App';
 import AboutMe from './Pages/AboutMe/AboutMe';
+import Contact from './Pages/Contact/Contact';
+import Reviews from './Pages/Reviews/Reviews';
 import FoodReview from './Pages/Review/FoodReview';
 import DrinkReview from './Pages/Review/DrinkReview';
 
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
   {
     path: '/afr/AboutMe',
     element: <AboutMe />
+  },
+  {
+    path: '/afr/Contact',
+    element: <Contact />
+  },
+  {
+    path: '/afr/Reviews',
+    element: <Reviews />
   },
   {
     path: '/afr/FoodReview/:foodId',
