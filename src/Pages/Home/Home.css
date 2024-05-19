@@ -32,6 +32,7 @@
     margin-bottom: 0.6vw;
     color: white;
     font-size: 2vw;
+    font-weight: 500;
 }
 
 .Featured-options {
@@ -44,6 +45,7 @@
 .Featured-options-title h1 {
     text-align: center;
     font-size: 2vw;
+    font-weight: 400;
     margin-top: 3vw;
     margin-bottom: 3vw;
 }
