@@ -11,6 +11,8 @@ const FoodList = [
     {
         image: phoToday,
         title: "Pho Today",
+        rating: 4,
+        cost: 2,
         address: "101 New World Way, South Plainfield, NJ, 07080, US",
         phone: "+1 (908) 822-2030",
         cuisine: "Vietnamese",
@@ -24,6 +26,8 @@ const FoodList = [
     {
         image: happyLamb,
         title: "Happy Lamb Hot Pot",
+        rating: 3,
+        cost: 3,
         address: "1737 Rte 27, Edison, NJ, 08817, US",
         phone: "+1 (732) 626-5991",
         cuisine: "Hot Pot",
@@ -37,6 +41,8 @@ const FoodList = [
     {
         image: ramenNagomi,
         title: "Ramen Nagomi",
+        rating: 4,
+        cost: 2,
         address: "49 Bayard St, New Brunswick, NJ, 08901, US",
         phone: "+1 (732) 317-2623",
         cuisine: "Ramen",
@@ -50,6 +56,8 @@ const FoodList = [
     {
         image: tofuHouse,
         title: "Tofu House",
+        rating: 1,
+        cost: 2,
         address: "1755 NJ-27, Edison, NJ, 08817, US",
         phone: "+1 (732) 777-2110",
         cuisine: "Korean",
@@ -63,6 +71,8 @@ const FoodList = [
     {
         image: sakana,
         title: "Sakana",
+        rating: 3,
+        cost: 2,
         address: "338 George St, New Brunswick, NJ, 08901, US",
         phone: "+1 (732) 867-9308",
         cuisine: "Sushi",
@@ -76,6 +86,8 @@ const FoodList = [
     {
         image: laCatrina,
         title: "La Catrina",
+        rating: 4,
+        cost: 1,
         address: "144 Easton Ave, New Brunswick, NJ, 08901, US",
         phone: "+1 (732) 628-0451",
         cuisine: "Taco",
@@ -89,6 +101,8 @@ const FoodList = [
     {
         image: cuzins,
         title: "Cuzins",
+        rating: 2,
+        cost: 3,
         address: "78 Albany St, New Brunswick, NJ, 08901, US",
         phone: "+1 (732) 979-2141",
         cuisine: "Seafood",
@@ -102,6 +116,8 @@ const FoodList = [
     {
         image: mariasBrunch,
         title: "Marias Brunch",
+        rating: 3,
+        cost: 1,
         address: "140 Durham Ave, Metuchen, NJ, 08840, US",
         phone: "+1 (732) 243-9050",
         cuisine: "Breakfast and Brunch",

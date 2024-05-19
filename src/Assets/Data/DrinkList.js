@@ -7,6 +7,8 @@ const DrinkList = [
     {
         image: miTea,
         title: "Mi Tea",
+        rating: 4,
+        cost: 2,
         address: "1784 Lincoln Hwy, Edison, NJ, 08817, US",
         phone: "+1 (732) 253-0351",
         cuisine: "Bubble Tea",
@@ -20,6 +22,8 @@ const DrinkList = [
     {
         image: utepia,
         title: "Utepia",
+        rating: 3,
+        cost: 2,
         address: "48 Bayard St, New Brunswick, NJ, 08901, US",
         phone: "+1 (732) 253-7517",
         cuisine: "Bubble Tea",
@@ -33,6 +37,8 @@ const DrinkList = [
     {
         image: cafeZIO,
         title: "Cafe ZIO",
+        rating: 3,
+        cost: 1,
         address: "352 Ryders Ln, East Brunswick, NJ, 08816, US",
         phone: "+1 (732) 339-8138",
         cuisine: "Bubble Tea",
@@ -46,6 +52,8 @@ const DrinkList = [
     {
         image: gongCha,
         title: "Gong Cha",
+        rating: 2,
+        cost: 2,
         address: "396 George St, New Brunswick, NJ, 08901, US",
         phone: "+1 (732) 253-7662",
         cuisine: "Bubble Tea",

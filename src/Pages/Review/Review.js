@@ -1,6 +1,10 @@
 //Imported Components
 import Header from '../../Assets/Components/Header';
 
+//Imported Images
+import bowlActive from '../../Assets/Images/bowlActive.svg';
+import bowlInactive from '../../Assets/Images/bowlInactive.svg';
+
 //CSS Imports
 import './Review.css';
 
@@ -17,11 +21,54 @@ export default function Review(props) {
                         <div className="Review-spotlight-content-title">
                             <h1>{obj.title}</h1>
                         </div>
+                        <div className='Review-spotlight-content-ratings'>
+                            <div className="Review-spotlight-content-rating">
+                                {(() => {
+                                    const elements = [];
+                                    for (let i = 0; i < obj.rating; i++) {
+                                        elements.push(<img src={bowlActive} alt="Rating" />);
+                                    }
+                                    return elements;
+                                })()}
+                                {(() => {
+                                    const elements = [];
+                                    for (let i = 0; i < (5 - obj.rating); i++) {
+                                        elements.push(<img src={bowlInactive} alt="Rating" />);
+                                    }
+                                    return elements;
+                                })()}
+                            </div>
+                            <div className="Review-spotlight-content-cost">
+                                <p>Cost: </p>
+                                {(() => {
+                                    const elements = [];
+                                    for (let i = 0; i < obj.cost; i++) {
+                                        elements.push(<p className='txtActive'>$</p>);
+                                    }
+                                    return elements;
+                                })()}
+                                {(() => {
+                                    const elements = [];
+                                    for (let i = 0; i < (4 - obj.cost); i++) {
+                                        elements.push(<p className='txtInactive'>$</p>);
+                                    }
+                                    return elements;
+                                })()}
+                            </div>
+                        </div>
+                        
                         <div className="Review-spotlight-content-details">
-                            <h4>{obj.address}</h4>
+                            <div className='Review-spotlight-content-details-address'>
+                                <p>{obj.address}</p>
+                            </div>
                             <div className="Review-spotlight-content-details-description">
-                                <p>{obj.phone}</p>
-                                <p>{obj.cuisine}</p>
+                                <ul>
+                                    <li>{obj.phone}</li>
+                                    <li>{obj.cuisine}</li>
+                                </ul>
+                                
+                                {/* <p>{obj.phone}</p>
+                                <p>{obj.cuisine}</p> */}
                             </div>
                         </div>
                     </div>
