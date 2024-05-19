@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
 
-import { Link } from 'react-router-dom';
-
 //Imported Components
 import Header from '../../Assets/Components/Header';
-import Carousel from '../../Assets/Components/Carousel';
 
 //CSS Imports
 import './Contact.css';
 
 class Contact extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            
+        }
+    }
     render() {
         return(
             <div className='Contact'>

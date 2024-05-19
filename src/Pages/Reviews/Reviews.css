@@ -1,0 +1,57 @@
+.Reviews-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.Reviews-content-title h1 {
+    text-align: center;
+    color: #B0830F;
+    font-size: 3vw;
+}
+
+.Reviews-content-list-wraper {
+    align-self: center;
+    width: 80vw;
+}
+
+.Reviews-content-list {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+}
+
+.Reviews-content-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.Reviews-content-item-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3vw;
+}
+
+.Reviews-content-item {
+    display: flex;
+}
+
+.Reviews-content-item-img {
+    display: flex;
+}
+
+.Reviews-content-item-img img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.Reviews-content-item-title {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    position: absolute;
+    width: 20vw;
+    background-color: rgba(200, 159, 12, 0.80);
+}
